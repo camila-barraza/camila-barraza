@@ -43,38 +43,62 @@
 
 
 
-    <!-- main -->
 
-    <div class="container fade-in-c1">
-        <div class="row justify-content-md-center" style="padding: 50px;">
-            <div class="col-md-auto">
-                
-                <h1>GALERIA DE FOTOS</h1>
-                
-            </div>
-        </div>
-      </div>
-
-    <div class="container-fluid" style="padding: 25px;">
-        <div class="row justify-content-md-center">
-            <div class="col-md-auto">
-            <img src="/img-galeria/1.jpeg" class="img-fluid" style="width: 18rem;"  alt="...">
-            <img src="/img-galeria/2.jpeg" class="img-fluid" style="width: 18rem;"  alt="...">
-            <img src="/img-galeria/3.jpeg" class="img-fluid" style="width: 18rem;"  alt="...">
-            <img src="/img-galeria/4.jpeg" class="img-fluid" style="width: 18rem;"  alt="...">
-            </div>
-        </div>
-        
-
+<!-- formulario -->
+<div class="container" style="padding: 50px;">
     <div class="row justify-content-md-center">
-        <div class="col-md-auto">
-            <img src="/img-galeria/5.jpeg" class="img-fluid" style="width: 18rem;"  alt="...">
-            <img src="/img-galeria/6.jpeg" class="img-fluid" style="width: 18rem;"  alt="...">
-            <img src="/img-galeria/7.jpeg" class="img-fluid" style="width: 18rem;"  alt="...">
-            <img src="/img-galeria/8.jpeg" class="img-fluid" style="width: 18rem;"  alt="...">
-            </div>
-        </div>
+      <div class="col-md-auto">
+        <section>
+            <h2>Contacto</h2>
+            <form action="">
+                <fieldset>
+                    <legend>Información Personal</legend>
+                
+                <!-- datos -->
+                
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Ingresa tu nombre" required>
+                <br>
+                <br>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido" required>
+                <br>
+                <br>
+                <label for="email">Mail</label>
+                <input type="email" name="email" id="email" placeholder="Ingresa tu mail" required>
+                <br>
+                <br>
+                
+                <!-- consulta -->
+    
+                <label for="consulta">Consulta</label>
+                <br>
+                <textarea name="consulta" id="consulta" cols="30" rows="8"></textarea>
+                <br>
+                <br>
+    
+    <!-- check -->
+    
+    <label for="articulos">Articulos</label>
+    <input type="checkbox" name="mates"> mates
+    <input type="checkbox" name="totes"> tote bags
+    <input type="checkbox" name="cuadros"> cuadros
+    <br>
+    <br>
+    
+    <!-- botones -->
+    
+    
+                <input type="submit" value="Enviar formulario">
+                <input type="reset" value="Limpiar formulario">
+                </fieldset>
+            </form>
+        </section>
+        <br>
+        <br>
     </div>
+  </div>
+</div>
 
     <!-- footer -->
 
